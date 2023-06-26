@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML5</title>
+    <style>
+        body{
+            background-color: grey;
+        }
+    </style>
+</head>
+<body>
+    <h1>Imagens que se adpatam sozinhas</h1>
+    <p>Tente abrir esse site em vários dispositivos diferentes ou simplesmente aumente e diminua o tamanho do seu navegador.</p>
+
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/foto-p.png" type="imagem/png">
+        <source media="(max-width: 1050px)" srcset="imagens/foto-m.png" type="image/png">
+        <img src="./Imagens/foto-g.png" alt="imagem flexívelb">
+    </picture>
+    <!-- Sempre começa com a menor foto (de cima para baixo) -->
+    <h1>Reproduzindo Áudio</h1>
+    <p>Vamos aprender a reproduzir áudior em HTML5</p>
+    <audio src="midia/bonk-sound.mp3" controls></audio>
+    <!-- MP3, WAV, OGG-->
+    <p>Reproduzindo audíos de uma outra maneira</p>
+    <audio preload="metadata" 
+        <source src="./midia/bonk-sound.mp3" type="audio/mpeg">
+        <source src="./midia/bonk-sound.ogg" type="audio/ogg">
+        <source src="./midia/bonk-sound.wav" type="audio/wav">
+    </audio> <!-- Ele vai priemiro rodar o de cima é se não conseguir, vai rodar os de baixo  na ordem -->
+    <!--
+        autoplay, controls
+    -->
+    <p>Infelizmneten seu navegador não consegue reproduzir áudio. <a href="./midia/bonk-sound.mp3">Clique aqui</a> para baixar o arquivo MP3</p>
+     <h1>Videos!</h1>
+     <p>Formatos: MP4, MP4V, WEBM, OGV</p>
+     <p>Os videos abaixo estão hospedados no meu próprio servidor (computador local)</p>
+     
+     <video src="./midia/pexels-raunaq-sachdev-16573461-1080x1920-30fps.mp4"width="560" controls loop ></video>
+
+     <video width="560" controls poster="./Imagens/foto-m.png">
+        <source src="./midia/bonk.mp4" type="video/mp4">
+        <source src="./midia/bonk.m4v" type="video/mp4">
+     </video>
+     <!-- Adicionar outros formatos -->
+     <!-- a tag "poster" serve para add uma capa no vídeo-->
+     <h1>Inserindo vídeos externos</h1>
+     <iframe width="560" height="315" src="https://www.youtube.com/embed/39HVf1Lbzqg?start=1100" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+     <p>Vídeos di vimeo</p>
+     <iframe src="https://player.vimeo.com/video/783455878?h=46672b3b96&loop=1&title=0&byline=0&portrait=0" width="560" height="315" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+<p><a href="https://vimeo.com/783455878">Indonesia FPV: Bali &amp; Java (Interactive)</a> from <a href="https://vimeo.com/timelabpro">Timelab Pro</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+</body>
+</html>

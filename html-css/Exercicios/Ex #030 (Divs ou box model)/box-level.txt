@@ -1,0 +1,41 @@
+                Box Model
+
+ Todo contéudo tem 
+ 
+ -Height
+ -Weidth
+ 
+     o h e mais alto e o w e mais largo
+
+ Border - E uma linha que circunda o contéudo
+ Padding (acochoamento ou preenchimento) - E o espaço entre o contéudo e o border
+ Margin - E um espaço depois do padding
+ Outline (contorno) - Fica na área do margin
+ 
+ Box-level - Ele sempre vai pular para a próxima linha ocupando toda dimençâo da tela e vai continuar o contéudo na linha a seguir (isolado)
+   
+   <div>
+   <h1> - <h6>
+   <p>
+   <main>
+   <header>
+   <nav>
+   <article>
+   <aside>
+   <footer>
+   <form>
+   <video>
+ 
+ Inline-level - Não quebra a linha, nâo ocupa o tamanho inteiro e continua o conteudo na mesma linha                                   
+
+  <span>
+  <a>
+  <code>
+  <small>
+  <em>
+  <sup> - <sub>
+  <label>
+  <button>
+  <input>
+  <select>
+ 

@@ -1,0 +1,46 @@
+Harmonia de cores (Paletton, adobe color, coolors)
+
+ -Circulos cromáticos
+   * Cores primárias (azul, amarelo, vermelho). São cores grosseiras
+   * Cores secundárias (laranja, violeta verde). São cores grosseiras
+   * Cores terciarias (São todas as outras cores que são mistura das cores primárias e secundária)
+   * Cores terciárias (Tons pasteis) (amarelo-esverdeado, amarelo-alaranjado, vermelho-alaranjado, vermelho-arroxeado, azul-arroxeado, azul-esverdeado)
+  
+ -Temperatura de cores
+   * Na esquerda são as cores frias e na direita são as cores quentes
+   * De três a cinco cores na sua paleta de cores (branco e preto já estão incluso)
+   
+ - Cores complementares
+
+   * São o cores de extremo opoxto
+
+ - Cores análogas
+
+   * São cores vizinhas (esquarda, meio, direita)
+
+ - Cores análogas e uma cor complementar
+
+ - Cores análogas relacionadas
+
+   *São duas cores vizinhas pulando uma cor 
+
+ - Cores intercaladas
+
+  *São três cores pulando uma cor entre elas
+
+- Cores triádicas
+
+  * Pega uma cor e pula três cores fazendo um triangulo
+
+- Cores em quadrado
+
+  * Pega uma cor e pula duas cores formando um quadrado
+
+- Cores tetrádicas 
+
+  * Pega duas cores e suas opostas fazendo um retángulo
+
+- Monocromia (degrade)
+
+  * Trabalha apenas com uma cor alterando a saturação e o brilho utilizano o hsl por ex. 
+  

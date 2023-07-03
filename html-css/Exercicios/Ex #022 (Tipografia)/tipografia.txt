@@ -1,0 +1,9 @@
+Estudo da Tipografia 
+
+ *Categorias 
+
+  - Serifadas
+  - Sans-serif (Preferências para usar em texto grande em telas)
+  - Monoespaçada
+  - Handwriting (dar uma impressão de feita a mão)
+  - Display (fontes críativas)
